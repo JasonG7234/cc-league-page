@@ -9,7 +9,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 export const homepageText = `
   <h2>WELCOME TO THE CC FANTASY LEAGUE HOME PAGE!</h2>
   <p>Created a website to see all of the history of the league. Still a work in progress.</p>
-
+`;
 /*   STEP 3   */
 /*
 3 managers as an example. Uncomment (remove the //) before each line to make it live code
