@@ -25,7 +25,7 @@ export const managers = [
       "name": "Ed",
       "location": "Hoboken", 
       "bio": "The commissioner of the league, Ed Zaleck III is a fast and feared competitor in the annals of CC fantasy football. ",
-      "photo": "/managers/ed.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/ed.png", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -50,7 +50,7 @@ export const managers = [
       "rival": {
         name: "Ed", // Can be anything (usually your rival's name)
         link: 1, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/ed.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        image: "/managers/ed.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 1234, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -82,7 +82,7 @@ export const managers = [
       "name": "Nicky P",
       "location": "West Orange", // (optional)
       "bio": "Nicholas Picholas is a future lawyer and a longtime fantasy football competitor. With a championship under his belt AND last year's last-place finish, Nicky P has a lot to prove in 2023.",
-      "photo": "/managers/nickyp.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/nickyp.png", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -183,7 +183,7 @@ export const managers = [
       "rival": {
         name: "Nicky P", // Can be anything (usually your rival's name)
         link: 4, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/nickyp.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        image: "/managers/nickyp.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 5916, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
